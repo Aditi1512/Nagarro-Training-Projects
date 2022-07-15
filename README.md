@@ -1,2 +1,2 @@
 # Nagarro-Training-Projects
-Projects developed during Nagarro training
+These are the that was developed during Nagarro training.

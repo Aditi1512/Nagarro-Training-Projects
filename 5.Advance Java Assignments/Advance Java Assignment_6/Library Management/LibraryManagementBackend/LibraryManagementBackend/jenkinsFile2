@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    tools{
+        maven 'MAVEN'
+    }
+//small change1
+//small change2
+//small change3
+//small change4
+//small change5
+
+    stages {
+        stage('build') {
+            steps {
+                sh 'mvn -f D://LibraryManagementBackend//LibraryManagementBackend//pom.xml compile'
+            }
+        }
+    }
+}

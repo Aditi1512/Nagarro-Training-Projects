@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginUser</servlet-name>
+  	<display-name>LoginUser</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.LoginUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductSave</servlet-name>
+  	<display-name>ProductSave</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.ProductSave</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductDelete</servlet-name>
+  	<display-name>ProductDelete</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.ProductDelete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<display-name>ForgotPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.ForgotPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ResetPassword</servlet-name>
+  	<display-name>ResetPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.ResetPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductEdit</servlet-name>
+  	<display-name>ProductEdit</display-name>
+  	<description></description>
+  	<servlet-class>com.nagarro.servlet.ProductEdit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginUser</servlet-name>
+  	<url-pattern>/LoginUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductSave</servlet-name>
+  	<url-pattern>/ProductSave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductDelete</servlet-name>
+  	<url-pattern>/ProductDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ForgotPassword</servlet-name>
+  	<url-pattern>/ForgotPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResetPassword</servlet-name>
+  	<url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductEdit</servlet-name>
+  	<url-pattern>/ProductEdit</url-pattern>
+  </servlet-mapping>
+</web-app>
