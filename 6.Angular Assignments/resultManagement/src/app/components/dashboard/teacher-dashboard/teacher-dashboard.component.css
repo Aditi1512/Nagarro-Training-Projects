@@ -1,0 +1,74 @@
+#logout {
+    float: right;
+    margin-right: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(26, 24, 24) 0%, rgb(53, 52, 52) 100%);
+    background: -webkit-linear-gradient(left, rgb(20, 20, 20) 0%, rgb(76, 74, 74) 100%);
+    display: block;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    width: 150px;
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+
+}
+
+#add-student {
+    float: right;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 88, 0);
+    width: 150px;
+    margin-top: -10px;
+    color: white;
+    text-align: center;
+    background: -webkit-linear-gradient(left, rgb(10, 139, 28) 0%, rgb(19, 74, 5) 100%);
+    display: block;
+
+}
+
+#editBtn {
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(56, 0, 167);
+
+}
+
+#deleteBtn {
+
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(180, 0, 0);
+
+}
+
+.table {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-color: white;
+
+}
+
+.table thead {
+    color: white;
+    text-align: center;
+    width: 40%;
+
+}
+
+.table td {
+    color: white;
+    text-align: center;
+}
+
+.top-div {
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -40px;
+    font-size: 30px;
+}

@@ -1,0 +1,9 @@
+.navbar-name {
+    color: white;
+    display: table;
+    margin: auto;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 35px;
+}

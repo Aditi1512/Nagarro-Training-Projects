@@ -1,0 +1,36 @@
+<div>
+    <div class="top-div">
+        <a (click)="logout()" class="btn btn-outline-dark bg-transparent btn-lg" id="logout">Logout</a>
+        <a class="btn btn-outline-success bg-transparent btn-lg" routerLink="/addStudent" id="add-student">Add
+            Record</a>
+    </div>
+    <br>
+    <div class='table'>
+        <h3>Total {{count}} Students</h3>
+        <table class="table table-dark table-sm table-hover table-bordered table-striped align-middle">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ROLL NO.</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">DATE OF BIRTH</th>
+                    <th scope="col">SCORE</th>
+                    <th scope="col">ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let result of results">
+                    <td>{{result.rollNo}}</td>
+                    <td>{{result.name}}</td>
+                    <td>{{result.dob}}</td>
+                    <td>{{result.score}}</td>
+                    <td><a class="btn btn-outline-primary bg-transparent btn-sm" id="editBtn"
+                            routerLink="/editStudentResult/{{result.id}}">Edit</a>
+                        <button class="btn btn-outline-danger bg-transparent btn-sm" id="deleteBtn"
+                            (click)="onDeleteRecord(result.id)">Delete</button>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

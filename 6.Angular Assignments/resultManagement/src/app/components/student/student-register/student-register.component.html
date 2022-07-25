@@ -1,0 +1,23 @@
+<div class="student-reg-panel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto py-4 px-0">
+                <div class="card p-0">
+                    <div class="card-title text-center">
+                        <h2 class="mt-5">Student Registration</h2> <small class="para"><b>Register to your student
+                                account below.</b></small>
+                    </div>
+                    <form (ngSubmit)="onSubmit()" class="signup">
+                        <div class="form-group"><input type="number" class="form-control" placeholder="Roll Number"
+                                [(ngModel)]="rollNo" name="rollNo" required></div>
+                        <div class="form-group"><input type="date" class="form-control" placeholder="Date of Birth"
+                                [(ngModel)]="dob" name="dob" required></div>
+                        <button type="submit" class="btn btn-primary" value="login">Register</button>
+                        <br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

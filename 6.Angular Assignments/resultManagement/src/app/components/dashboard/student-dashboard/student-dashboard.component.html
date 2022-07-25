@@ -1,0 +1,63 @@
+<section class="vh-100" style="background-color: #ffffff00">
+    <a (click)="logout()" class="btn btn-outline-dark bg-transparent btn-lg" id="logout">Logout</a>
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card  body" style="border-radius: 1rem;">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                            <img src="https://www.ndtv.com/education/cache-static/media/presets/625X400/article_images/2022/5/18/result-featured-image.jpg"
+                                alt="Result" class="img" style="border-radius: 1rem 0 0 1rem;" width="380"
+                                height="420" />
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                            <div class="card-body p-4 p-lg-5 text-black">
+                                <form>
+                                    <div class="d-flex align-items-center mb-2 pb-1">
+                                        <span class="fw-bold mb-0" style="margin-left: 150px">
+                                            <h2>
+                                                <p>Result</p>
+                                            </h2><small class="para" style="margin-left:-20px">Result is shown
+                                                below.</small>
+                                        </span>
+                                    </div>
+                                    <br>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="form-result" style="margin-left: 60px"><b>Roll
+                                                No.
+                                                : </b></label>
+                                        <label class="form-label" for="form-result"
+                                            style="margin-left: 50px">{{studentResult.rollNo}}</label>
+                                    </div>
+
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="form-result" style="margin-left: 60px"><b>Name
+                                                :</b></label>
+                                        <label class="form-label" for="form-result"
+                                            style="margin-left: 60px">{{studentResult.name}}</label>
+                                    </div>
+
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="form-result" style="margin-left: 60px"><b>Date of
+                                                Birth : </b></label>
+                                        <label class="form-label" for="form-result"
+                                            style="margin-left: 10px">{{studentResult.dob}}</label>
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="form-result" style="margin-left: 60px"><b>Score
+                                                :</b></label>
+                                        <label class="form-label" for="form-result"
+                                            style="margin-left: 62px">{{studentResult.score}}</label>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

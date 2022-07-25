@@ -1,0 +1,39 @@
+.card {
+    box-shadow: 0 0 15px 9px #00000096;
+    background-color: rgb(255, 253, 253);
+    width: 750px !important;
+    height: 420px !important;
+    margin-left: 90px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(57, 55, 55);
+}
+
+#logout {
+    margin-top: 15px;
+    float: right;
+    margin-right: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    font-size: medium;
+    background: linear-gradient(to right, rgb(26, 24, 24) 0%, rgb(53, 52, 52) 100%);
+    background: -webkit-linear-gradient(left, rgb(20, 20, 20) 0%, rgb(76, 74, 74) 100%);
+    color: white;
+
+}
+
+.para {
+    color: rgb(57, 55, 55);
+}
+
+.h2 {
+    color: rgb(57, 55, 55);
+    margin-bottom: 3px;
+    font-weight: bold
+}
+
+.small {
+    color: rgba(0, 0, 0, 0.3)
+}
